@@ -1,13 +1,17 @@
 .hoverTable{
-    width:100%; 
-    border-collapse:collapse; 
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
 }
-.hoverTable td{ 
-    padding:7px; border:#4e95f4 1px solid;
+.hoverTable td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
+
 /* Define the default color for all the table rows */
-.hoverTable tr{
-    background: #dddddd;
+.hoverTable tr:nth-child(even) {
+    background-color: #dddddd;
 }
 /* Define the hover highlight color for the table row */
 .hoverTable tr:hover {
@@ -19,20 +23,4 @@ div{
     color: green;
     font-style: italic;
     font-family: arial, sans-serif;
-}
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 95%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
 }
