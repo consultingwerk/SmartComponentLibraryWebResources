@@ -18,9 +18,18 @@
       background-color: #b8c4cd;
 }
 
-div{
+div {
     font-size: 18pt;
-    color: green;
+    color: black;
     font-style: italic;
     font-family: arial, sans-serif;
+}
+
+.downloadbuttons div {
+    padding-right: 10px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
