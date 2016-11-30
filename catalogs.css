@@ -30,7 +30,6 @@
 
 div {
     font-size: 18pt;
-    color: black;
     font-style: italic;
     font-family: arial, sans-serif;
 }
@@ -40,6 +39,5 @@ div {
 }
 
 a {
-    color: #FFFFFF;
     text-decoration: none;
 }
